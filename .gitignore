@@ -1,0 +1,17 @@
+# Client
+client/node_modules/
+client/dist/
+client/.vite/
+
+# Server
+server/vendor/
+#server/.env
+server/storage/logs/*
+server/storage/framework/*
+server/database/database.sqlite
+
+# Generales
+.DS_Store
+*.log
+.env
+Thumbs.db
