@@ -18,3 +18,4 @@ bun install
 
 cd server
 composer install
+php artisan install:api
