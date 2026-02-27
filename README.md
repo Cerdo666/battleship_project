@@ -13,6 +13,7 @@ Variant pacífica de "Enfonsar la Flota": trobar vaixells perduts en un tauler 1
 cd client
 bun install
 bun add axios react-router-dom @types/react-router-dom
+bun add -D @vitejs/plugin-react
 
 ### 2. Server (backend)
 
