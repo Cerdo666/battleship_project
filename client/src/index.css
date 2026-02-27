@@ -1,0 +1,9 @@
+.hover-bg-light:hover {
+  background-color: #f8f9fa !important;
+}
+
+.btn.bg-purple { background-color: #6f42c1 !important; }
+.btn.bg-success { background-color: #198754 !important; }
+.btn.bg-primary { background-color: #0d6efd !important; }
+.btn.bg-danger  { background-color: #dc3545 !important; }
+.btn.bg-warning { background-color: #ffc107 !important; }
