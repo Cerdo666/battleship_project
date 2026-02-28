@@ -72,4 +72,17 @@ class AuthController extends Controller
             'message' => 'Sesión cerrada correctamente',
         ]);
     }
+
+
+    public function user(Request $request)
+    {
+        $user = $request->user();
+        
+        return response()->json([
+            'id' => $user->id,
+            'nickname' => $user->nickname,
+            'created_at' => $user->created_at,
+            'updated_at' => $user->updated_at,
+        ]);
+    }
 }

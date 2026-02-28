@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
@@ -41,10 +40,8 @@ class Game extends Model
         return true;
     }
 
-    // Método para calcular score (puedes cambiar la fórmula)
     public function calculateScore(): int
     {
-        return max(0, 100 - $this->attempts);  // Ejemplo simple: 100 - tiros
-        // Alternativa: 1000 / ($this->attempts + 1) para más diferencia
+        return max(0, 100 - $this->attempts); // Ajusta fórmula
     }
 }
