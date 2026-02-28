@@ -196,11 +196,8 @@ export default function Dashboard() {
 
               {/* Botones de acción */}
               <div className="d-grid gap-2 mb-4">
-                <button 
-                  className="btn btn-primary btn-lg"
-                  onClick={() => navigate('/game')}
-                >
-                  🎮 Iniciar Nueva Partida
+                <button className="btn btn-primary btn-lg" onClick={() => navigate('/game')}>
+                    🎮 Iniciar Nueva Partida
                 </button>
                 
                 <button 
